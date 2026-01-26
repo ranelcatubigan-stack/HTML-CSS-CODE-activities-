@@ -1,0 +1,59 @@
+body {
+    font-family: "Times New Roman";
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5{
+    font-size: 16px;
+
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+div{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+ul,ol{
+    text-align: left;
+    padding-left: 720px;
+}
+
+a{
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+}
+
+img{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 100px;
+}
