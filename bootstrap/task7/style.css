@@ -1,0 +1,68 @@
+
+.box{
+    text-align: left;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  grid-template-areas:
+    "box-1 box-2 box-2 box-2"
+    "box-4 box-4 box-4 box-4"
+    "box-4 box-4 box-4 box-4"
+    "box-3 box-3 box-3 box-5";
+
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}   
+
+.intro{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.lead{
+    font-size: 14px;
+    text-align: center;
+}
+.card{
+    height: 100px;
+    width: 250px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.mb-4{
+        font-size: 18px;
+}
+
+
+@media (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "box-1 box-1"
+      "box-2 box-2"
+      "box-4 box-4"
+      "box-3 box-5";
+  }
+}
+
+
+@media (max-width: 576px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box-1"
+      "box-2"
+      "box-3"
+      "box-4"
+      "box-5";
+  }
+}
